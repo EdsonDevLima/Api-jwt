@@ -1,5 +1,5 @@
 # Api-jwt
-Api com authenticaçao jwt e criptografia de senha
+Api com authenticaçao jwt , criptografia de senha e persistencia de dados com o entity framework core
 
 guia de instalaçao,no console do terminal digite:
 
