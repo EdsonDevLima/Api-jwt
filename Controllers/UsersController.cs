@@ -22,7 +22,7 @@ namespace MyApi.Controllers{
 
         
         [HttpPost]
-        [Route("register")]
+        [Route("Register")]
         public async Task<IActionResult> Register(UserRegister dataInput){
             var user = await context.Users.FirstOrDefaultAsync(userDb => userDb.Email == dataInput.Email || userDb.Name == dataInput.Name);
             if(user != null)
@@ -53,19 +53,17 @@ namespace MyApi.Controllers{
              
         }
 
-
-
-
-
         [HttpPost]
-        [Route("Register")]
-        public async Task<IActionResult> Register(UserLogin dataLogin){
+        [Route("Login")]
+        public async Task<IActionResult> Login(UserLogin dataLogin){
             
             var user = await context.Users.FirstOrDefaultAsync(userDb => userDb.Email == dataLogin.Email);
             if(user == null){
                 return Unauthorized(new {message ="Email nao cadastrado"});
             }
             try{
+                var token = authServices.CreateToken(user);
+                return Ok(new {message = "usuario autenticado",token});
 
 
             }   catch(Exception e){

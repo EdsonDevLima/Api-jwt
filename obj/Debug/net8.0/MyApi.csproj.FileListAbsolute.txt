@@ -135,3 +135,8 @@ C:\Users\ead33\Desktop\api com criptografia\MyApi\obj\Debug\net8.0\scopedcss\bun
 C:\Users\ead33\Desktop\api com criptografia\MyApi\obj\Debug\net8.0\MyApi.csproj.Up2Date
 C:\Users\ead33\Desktop\api com criptografia\MyApi\obj\Debug\net8.0\MyApi.genruntimeconfig.cache
 C:\Users\ead33\Desktop\api com criptografia\MyApi\obj\Debug\net8.0\ref\MyApi.dll
+C:\Users\ead33\Desktop\api com criptografia\MyApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ead33\Desktop\api com criptografia\MyApi\obj\Debug\net8.0\MyApi.sourcelink.json
+C:\Users\ead33\Desktop\api com criptografia\MyApi\bin\Debug\net8.0\Scrutor.dll
+C:\Users\ead33\Desktop\api com criptografia\MyApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\ead33\Desktop\api com criptografia\MyApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
